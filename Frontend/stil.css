@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(186, 217, 228);
+}
+.kontejner{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    
+   color: white; 
+  font-size: 18px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stanar{
+    align-items: center;
+}
+.drugiblok{
+   margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.prviblok{
+    display: flex;
+    margin: 5px;
+    flex-direction:column;
+
+}
+.poc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.selekt{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.imedugme{
+    background-color: #fafafa;
+ width: 120mm;
+ 
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  transition: .3s box-shadow;
+}
+.imedugme:hover{
+    box-shadow:0 0 4px rgba(0,0,0,0.5)}
+.divRb{
+    flex-direction: column;
+}
+.select{
+   box-sizing: unset;
+  padding: 7px 7px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.eelabela{
+    text-align: center;
+    color: white;
+    font-size: 12mm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.dugme1{
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 40px;
+    opacity: 0.6;
+    font-size: 16px;
+    width: 350px;
+    transition: 0.3s;
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin:30px;
+    
+}
+.dugme1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+.f{
+    align-items: center;
+    flex-direction: column;
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 220px;
+    flex-grow: 1;
+    width: 50%;
+   
+}
+.dd{
+    display: flex;
+    flex-direction: column;
+}
+.kontForma{
+    margin-left: 50px;
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 210px;
+    
+
+}
+.kontLokacije{
+   align-items: center;
+    margin-left: 40px;
+    border: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow:1;
+
+}
+.Lokacije{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:solid whitesmoke;
+    border-width: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   width: 120px;
+   height: 120px;
+    flex-grow: 0;
+    
+}
+.podnaslov{
+    
+    text-decoration: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align:unset;
+    color: whitesmoke;
+}
+.red{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.minikontejner{
+    display: flex;
+    flex-direction: column;
+}
+
