@@ -20,6 +20,9 @@ public int M{get;set;}
 [Column("Naziv")]
 public string Naziv{get;set;}
 
+[Column("Kvarovi")]
+public virtual List<Kvar> Kvarovi{get;set;}
+
 [Column("Sobe")]
 public virtual List<Soba> Sobe{get;set;}
     }
